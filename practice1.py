@@ -17,11 +17,25 @@ def somechangefunc(list):
     list = list.append("2")
 
 
+class testclass():
+    __instance = None
+    def __init__(self,str):
+        self.name1  = str
+
+    def tellname(self):
+        return self.name1
+
 if __name__ == '__main__':
 
     # x = "main variable"
-    print(x)
+    # print(x)
 
+
+    cls =testclass("Rohan")
+    cls2 =testclass("Afnan")
+
+    print(cls.__instance)
+    print(cls2.tellname())
     # somefunc()
 
     # list = ["1"]
