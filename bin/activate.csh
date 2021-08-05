@@ -8,7 +8,11 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
+<<<<<<< HEAD
 setenv VIRTUAL_ENV "/home/munibasad/Desktop/pythonsqlvirtualenv/pythonsqlvirtualenv"
+=======
+setenv VIRTUAL_ENV "/home/munibasad/Desktop/PythonLevel1"
+>>>>>>> de6b2cd656e85f09007c2ce383b40eaca1310e24
 
 set _OLD_VIRTUAL_PATH="$PATH"
 setenv PATH "$VIRTUAL_ENV/bin:$PATH"
@@ -17,8 +21,13 @@ setenv PATH "$VIRTUAL_ENV/bin:$PATH"
 set _OLD_VIRTUAL_PROMPT="$prompt"
 
 if (! "$?VIRTUAL_ENV_DISABLE_PROMPT") then
+<<<<<<< HEAD
     if ("pythonsqlvirtualenv" != "") then
         set env_name = "pythonsqlvirtualenv"
+=======
+    if ("PythonLevel1" != "") then
+        set env_name = "PythonLevel1"
+>>>>>>> de6b2cd656e85f09007c2ce383b40eaca1310e24
     else
         if (`basename "VIRTUAL_ENV"` == "__") then
             # special case for Aspen magic directories

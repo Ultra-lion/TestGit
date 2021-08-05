@@ -29,7 +29,11 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
+<<<<<<< HEAD
 set -gx VIRTUAL_ENV "/home/munibasad/Desktop/pythonsqlvirtualenv/pythonsqlvirtualenv"
+=======
+set -gx VIRTUAL_ENV "/home/munibasad/Desktop/PythonLevel1"
+>>>>>>> de6b2cd656e85f09007c2ce383b40eaca1310e24
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
@@ -52,8 +56,13 @@ if test -z "$VIRTUAL_ENV_DISABLE_PROMPT"
         set -l old_status $status
 
         # Prompt override?
+<<<<<<< HEAD
         if test -n "(pythonsqlvirtualenv) "
             printf "%s%s" "(pythonsqlvirtualenv) " (set_color normal)
+=======
+        if test -n "(PythonLevel1) "
+            printf "%s%s" "(PythonLevel1) " (set_color normal)
+>>>>>>> de6b2cd656e85f09007c2ce383b40eaca1310e24
         else
             # ...Otherwise, prepend env
             set -l _checkbase (basename "$VIRTUAL_ENV")
